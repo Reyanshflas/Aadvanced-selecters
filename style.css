@@ -1,0 +1,52 @@
+#cool_car{
+
+    height:300px;
+    width:300px ;
+
+}
+
+.car_brands:hover{
+
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: larger;
+    
+}
+
+.car_brands::before{
+
+   content: "🏎"
+}
+
+.car_brands::after{
+
+content: "🏎"
+}
+
+#main{
+
+    background-color: deeppink;
+}
+#cool_car:hover{
+
+    box-shadow: 4px 5px 6px gold;
+    height: 350px;
+    width: 350px;
+}
+
+#para-1::first-letter{
+
+    font-size: 200%;
+    color: deepskyblue;
+}
+#para-2::first-letter{
+
+    font-size: 200%;
+    color:rgb(32, 209, 25);
+}
+#para-3::first-letter{
+
+    font-size: 200%;
+    color: rgba(255, 247, 0, 0.814);
+}
